@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "undertale";
+    src: url("fonts/MonsterFriendFore.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: "Fonteunder";
+    src: url("fonts/DeterminationMonoWebRegular-Z5oq.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#titulo {
+    float:inline-start;
+    background-color: black;
+    height: 85px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalhoCri {
+    float:inline-start;
+    background-color: blue;
+    height: 70px;
+    width: 19.8%;
+    margin-right: 4px;
+    margin-left: 2px;
+    padding: 0;
+    text-align: center;
+    border-left: 15px black;
+    font-family: "undertale", sans-serif;
+}
+
+#cabecalhoPer {
+    float:inline-start;
+    background-color: blue;
+    height: 70px;
+    width: 19.8%;
+    margin-right: 4px;
+    padding: 0;
+    text-align: center;
+    font-family: "undertale", sans-serif;
+}
+
+#cabecalhoHist {
+    float:inline-start;
+    background-color: blue;
+    height: 70px;
+    width: 19.8%;
+    margin-right: 4px;
+    padding: 0;
+    text-align: center;
+    font-family: "undertale", sans-serif;
+}
+
+#cabecalhoRot {
+    float:inline-start;
+    background-color: blue;
+    height: 70px;
+    width: 19.8%;
+    margin-right: 4px;
+    padding: 0;
+    text-align: center;
+    font-family: "undertale", sans-serif;
+}
+
+#cabecalhoMus {
+    float:inline-end;
+    background-color: blue;
+    height: 70px;
+    width: 19.1%;
+    margin-right: 2px;
+    padding: 0;
+    text-align: center;
+    font-family: "undertale", sans-serif;
+}
+
+#home {
+    float: right;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fonteunder", sans-serif;
+}
+
+#footer {
+    float:inline-end;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(255, 30, 40);
+    height: 9.5%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "undertale", sans-serif;
+}
+
+#rotas {
+    float: right;
+    height: 80%;
+    width: 80%;
+    font-family: "Fonteunder", sans-serif; 
+    margin: 8%;  
+    display:flex; 
+}
+
+
+.esvanecer {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.1;
+}
+
+.esvanecer:hover {opacity: 0.6;}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.1s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "undertale", sans-serif;
+}
+
+.button:hover {opacity: 0.6;}
+
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: blue;
+}
+
+
+h1 {
+    margin-left: 2%;
+    color: white;
+}
+
+p {
+    color:white;
+}
+
+.Underimg {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.footerP {
+    float: inline-end;
+}
+
+.footerImg {
+    width: 6%;
+    float: inline-end;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.text {
+    font-family: "Fonteunder", sans-serif;
+    font-size: 150%;
+    color: white;
+    text-align: initial;
+}
+
+
+.text1 {
+    font-family: "Fonteunder", sans-serif;
+    font-size: 180%;
+    color: white;
+    text-align: initial;
+}
+
+.img1 {
+    width: 90%;
+    float: inline-end;
+    align-items: right;
+    margin-top: 1%;
+}
+
+.img2 {
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.img3 {
+    float: inline-start;
+    width: 50%;
+    margin-right: 150%;
+}
+
+.img4 {
+    float: left;
+    width: 70%;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.img5 {
+    float: left;
+    width: 20%;
+    margin-top: 5%;
+}
+.img6 {
+    float: right;
+    width: 20%;
+    margin-top: 5%;
+}
+
+.img7 {
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.img-mirror-hor {
+  transform: rotateY(180deg);
+}
+
+.text-end {
+    text-align: right;
+    float: right;
+}
+
+.tabrote {
+    transform:rotate(90deg);
+}
+
+.tdrote {
+    transform:rotate(-90deg);
+}
+
+.imgs5 {
+    height: 200px;
+    margin: 10%;
+}
+
